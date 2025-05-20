@@ -1,4 +1,4 @@
-# ♟️ Ethan Shanahan's Portfolio & Chess Challenge Site
+# Ethan Shanahan's Portfolio
 
 Welcome to my portfolio — a place where you can read my latest work **or challenge me (well, my bot alter ego)** to a game of chess.
 

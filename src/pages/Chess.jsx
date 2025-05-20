@@ -111,7 +111,7 @@ export default function ChessPage() {
         </div>
 
         <div className="text-center">
-          <p className="text-lg mb-2">Shanahan</p>
+          <p className="text-lg mb-2">Shanaman</p>
           <div className="text-2xl font-mono bg-black bg-opacity-50 p-2 rounded">
             {Math.floor(aiTime / 60)}:{(aiTime % 60).toString().padStart(2, "0")}
           </div>
