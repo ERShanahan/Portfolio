@@ -3,7 +3,7 @@ import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/bot_move"; // replace with your backend
+const API_URL = "http://chess-api-vxd3.onrender.com/bot_move";
 
 export default function ChessPage() {
 
