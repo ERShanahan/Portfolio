@@ -6,19 +6,19 @@ const projects = [
   {
     title: "American Sign Interpreter",
     description: "American Sign Interpreter",
-    imageUrl: "../../public/images/asl.jpg",
+    imageUrl: "/images/asl.jpg",
     link: "https://asi-eosin.vercel.app"
   },
   {
     title: "Physics Sim",
     description: "Particle Simulation in C for Windows",
-    imageUrl: "../../public/images/physics.png",
+    imageUrl: "/images/physics.png",
     link: "https://github.com/ERShanahan/Physics"
   },
   {
     title: "File System from Scratch",
     description: "File System Skeleton: Project for Operating Systems at Stevens Institute of Technology",
-    imageUrl: "../../public/images/fs.png",
+    imageUrl: "/images/fs.png",
     link: "https://github.com/ERShanahan/Basic_FileSystem"
 
   }
