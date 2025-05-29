@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Projects.css";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
 
 const projects = [
   {
@@ -27,6 +29,7 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white projects-container">
+      <Header />
       {/* Hero Section */}
       <div
         className="h-screen bg-fixed bg-center bg-cover flex flex-col justify-center items-center"
@@ -69,11 +72,7 @@ export default function ProjectsPage() {
         ))}
       </div>
 
-      {/* Footer */}
-      <footer className="bg-black bg-opacity-80 text-gray-400 text-center py-6 border-t border-gray-700">
-        <p>eshanaha@stevens.edu | github.com/ERShanahan | linkedin.com/in/eshanaha</p>
-        <p>© {new Date().getFullYear()} Ethan Shanahan. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

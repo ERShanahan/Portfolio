@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
 import { useNavigate } from "react-router-dom";
+import { Header } from "../components/Header"
+import { Footer } from "../components/Footer";
 
 const API_URL = "https://chess-api-vxd3.onrender.com/bot_move";
 
@@ -75,16 +77,7 @@ export default function ChessPage() {
   return (
     <div className="min-h-screen bg-fixed bg-center bg-cover text-white"
          style={{ backgroundImage: "url('/images/piece_shadow.jpg')" }}>
-
-        {/* Static Top Navigation */}
-        <div className="static top-0 left-0 w-full bg-black bg-opacity-70 p-6 text-center z-50">
-            <button
-            className="text-lg font-semibold hover:text-white transition"
-            onClick={() => navigate("/")}
-            >
-            Home
-            </button>
-      </div>    
+      <Header />   
     
       <div className="bg-black bg-opacity-70 p-6 text-center">
         <h1 className="text-4xl font-bold">Play Me!</h1>
@@ -127,11 +120,7 @@ export default function ChessPage() {
         </button>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-black bg-opacity-80 text-gray-400 text-center py-6 border-t border-gray-700">
-        <p>eshanaha@stevens.edu | github.com/ERShanahan | linkedin.com/in/eshanaha</p>
-        <p>© {new Date().getFullYear()} Ethan Shanahan. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
