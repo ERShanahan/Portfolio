@@ -1,0 +1,44 @@
+/* Projects.css */
+
+/* Reset container margins */
+.projects-container,
+.flex-col {
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Left image section --- */
+
+/* Diagonal clip for image container */
+.clip-left {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+
+/* Overlay sliding cover (dark blue) */
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(31, 41, 55, 0.9);
+  transform: translateX(0);
+  transition: transform 0.6s ease;
+  z-index: 10;
+}
+
+/* Slide overlay off on hover */
+.group:hover .image-overlay {
+  transform: translateX(-100%);
+}
+
+/* --- Right description section --- */
+
+/* Text styling inside description */
+.clip-right p {
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+/* Remove any gap between stacked rows */
+.flex-col > .flex-col + .flex-col {
+  margin-top: 0;
+}

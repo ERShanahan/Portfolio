@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home.jsx'
 import Chess from './pages/Chess.jsx'
+import Projects from './pages/Projects.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/papers" element={<div className="text-white p-8">Papers Page Coming Soon</div>} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/chess" element={<Chess />} />
       </Routes>
     </BrowserRouter>

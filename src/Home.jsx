@@ -6,7 +6,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   const widgets = [
-    { title: "Papers", onClick: () => navigate("/papers") },
+    { title: "Projects", onClick: () => navigate("/projects") },
     { title: "Chess", onClick: () => navigate("/chess") },
     // You can add more widgets here later
   ];
