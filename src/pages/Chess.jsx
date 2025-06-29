@@ -200,6 +200,7 @@ export default function ChessPage() {
       <div className="bg-black bg-opacity-70 p-6 text-center">
         <h1 className="text-4xl font-bold">Play Me!</h1>
         <p className="text-gray-300 mt-2">Chess.com ~2000</p>
+        <p className="text-gray-300 mt-2">Please be patient for his first move! He takes some time to warm up...</p>
       </div>
   
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 p-8">
