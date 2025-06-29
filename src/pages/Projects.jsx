@@ -22,7 +22,30 @@ const projects = [
     description: "File System Skeleton: Project for Operating Systems at Stevens Institute of Technology",
     imageUrl: "/images/fs.png",
     link: "https://github.com/ERShanahan/Basic_FileSystem"
-
+  },
+  {
+    title: "Maze Generator",
+    description: "Example Maze Generation and Solving using various known algorithms",
+    imageUrl: "/images/maze.png",
+    link: "https://maze-generator-three.vercel.app/"
+  },
+  {
+    title: "Lecture Lens",
+    description: "Real Time Transcription from Lecture to Notes",
+    imageUrl: "/images/lecturelens.png",
+    link: "https://lecture-lens.vercel.app/"
+  },
+  {
+    title: "Personal Chatbot",
+    description: "Personal Chatbot prompted to act as myself!",
+    imageUrl: "/images/chatbot.png",
+    link: "https://shanaman-chatbot.vercel.app/"
+  },
+  {
+    title: "Echo Agent",
+    description: "Voice Dictation directly to Typing with Transformer Model entirely in C++",
+    imageUrl: "/images/echo.png",
+    link: "https://github.com/ERShanahan/Echo_Agent"
   }
 ];
 
